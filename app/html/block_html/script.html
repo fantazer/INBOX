@@ -1,7 +1,16 @@
 	  <!-- build:js scripts/combined.js -->
 	  <!-- bower:js -->
 	  <script src="bower/jquery/dist/jquery.js"></script>
-	  <script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+	  <script src="bower/stickUp/stickUp.min.js"></script>
+	  <script src="bower/page-scroll-to-id/jquery.malihu.PageScroll2id.js"></script>
+	  <script src="bower/wow/dist/wow.min.js"></script>
 	  <!-- endbower-->
-	  <script src="js/script.js"></script>
+	  <script>
+        new WOW({
+        							offset: 200,          // default
+                      mobile: true,       // default
+                      live:   true 
+        }).init();
+    </script>
+	  <script src="js/script.js"></script> 
 	  <!-- endbuild --> 
