@@ -395,6 +395,9 @@ input:-ms-input-placeholder {
     border-radius: 4px;
     margin-right: -20px;
     display inline-block
+    &:hover{
+      cursor pointer
+    }
 }
 
 .form-step{
@@ -413,4 +416,160 @@ input:-ms-input-placeholder {
   z-index 200
   background blue
   margin-top 0px!important
+}
+
+.error{
+ font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+  color: red; 
+}
+.close-animatedModal{
+  flex()
+}
+.modal-content{
+  border 0px
+  box-shadow 0 0 0
+  flex()
+  background none!important
+  height 70%
+}
+
+.close-animatedModal .fa {
+    color: white!important;
+    font-size: 40px;
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 38px;
+    display block
+}
+
+.get-start {
+  padding 50px 0
+  background blue
+}
+.get-start-title {
+  font-size 25px
+  color white
+  text-align center
+}
+.get-start-element {
+  
+}
+.get-start-element-title {
+  font-size 50px
+  text-align center
+  color dark_blue
+}
+.get-start-element-text {
+ text-align center
+ color white
+ font-size 16px
+}
+
+.get-start-form {
+  flex()
+  margin-top 30px
+  input{
+    padding 20px
+    margin-bottom 10px
+  }
+  button{
+    width 100%
+    height 55px
+    background-image: -moz-linear-gradient( 90deg, rgb(7,88,144) 0%, rgb(35,106,158) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(7,88,144) 0%, rgb(35,106,158) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(7,88,144) 0%, rgb(35,106,158) 100%);
+    box-shadow: 0px 0px 1px 0px rgba(9, 94, 152, 0.21);
+  }
+}
+.get-start-form-cont {
+  width 35%
+  padding 30px 50px
+  border 5px solid dark_blue
+  border-radius 5px
+  box-shadow: inset 1px 1px 1px #ABDCEC, 1px 1px 1px #ABDCEC
+}
+.get-start-form-title {
+ text-align center
+ color white
+ margin-bottom 10px
+ font-size 25px 
+}
+
+
+.tarif {
+  padding 50px 0px
+  button{
+    width 100%
+    height 55px
+    background-image: -moz-linear-gradient( 90deg, rgb(7,88,144) 0%, rgb(35,106,158) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(7,88,144) 0%, rgb(35,106,158) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(7,88,144) 0%, rgb(35,106,158) 100%);
+    box-shadow: 0px 0px 1px 0px rgba(9, 94, 152, 0.21);
+  }
+}
+.tarif-title {
+  text-align center
+  font-size 25px
+  color dark_blue
+  margin-bottom 30px
+}
+.tarif-wraper {
+
+}
+.tarif-element{
+  background blue
+  padding 20px
+  height 330px
+  flex()
+  flex-flow column
+}
+.tarif-name {
+  font-size 25px
+  color white
+}
+.tarif-price {
+  color white
+  font-size 86px
+}
+.tarif-text {
+ text-align center
+ width 80%
+ font-size 16px
+ height 120px
+ color white
+ flex()
+}
+.tarif-button {
+ width 100%
+}
+
+.small-menu{
+  .main-menu{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a:nth-child(5):before{
+        content ''
+        height 0!important
+        width 0!important
+      }
+    
+  }
+  a{
+    margin-right 10px
+  }
+  
+}
+
+.small-menu-center{
+  flex()
 }
