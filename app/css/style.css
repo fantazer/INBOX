@@ -105,7 +105,7 @@ p {
   font-size: 16px;
   color: #fff;
   position: relative;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .main-menu a:before {
   content: '';
@@ -114,7 +114,7 @@ p {
   height: 3px;
   background: #fff;
   border-radius: 50%;
-  right: -7px;
+  right: -10px;
   bottom: 50%;
 }
 .main-menu a:nth-child(7):before {
@@ -128,7 +128,7 @@ p {
   width: 0 !important;
 }
 .logo {
-  margin-right: 20px;
+  margin-right: 5px;
 }
 .phone {
   margin-left: 20px;
@@ -692,6 +692,14 @@ input:-ms-input-placeholder {
 .small-menu a {
   margin-right: 10px;
 }
+.small-menu .menu-phone {
+  content: '';
+  height: 0 !important;
+  width: 0 !important;
+}
+.small-menu a {
+  margin-left: 7px;
+}
 .small-menu-center {
   display: -webkit-box;
   display: -webkit-flex;
@@ -705,6 +713,9 @@ input:-ms-input-placeholder {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.stuckMenu {
+  box-shadow: -1px 3px 2px rgba(40,82,117,0.98);
 }
 /*# sourceMappingURL=css/style.css.map */
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,8 @@
-
+jQuery(function($) {
+    $(document).ready( function() {
+      $('.main-menu-border').stickUp();
+    });
+  }); 
 
 $(document).ready(function(){
 	$('.fa-bars').click(function(){
@@ -53,11 +57,7 @@ $(document).ready(function(){
 	 	});
 })
 
-jQuery(function($) {
-    $(document).ready( function() {
-      $('.main-menu-border').stickUp();
-    });
-  }); 
+
 
 (function($){
     $(window).load(function(){
